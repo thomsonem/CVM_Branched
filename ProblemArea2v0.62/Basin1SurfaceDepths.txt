@@ -1,0 +1,3 @@
+Basin Surface Depths at Lat: -43.570000 Lon: 172.800000
+BPVTop 	 -210.921300
+MioceneTop 	 -1128.946000

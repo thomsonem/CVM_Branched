@@ -1,0 +1,5 @@
+Basin Surface Depths at Lat: -43.552000 Lon: 171.850000
+PlioceneTop 	 -364.227580
+MioceneTop 	 -684.458780
+PaleogeneTop 	 -912.839240
+BasementTop 	 -1606.795600
