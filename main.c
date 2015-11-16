@@ -22,7 +22,8 @@
 #include "structs.h"
 #include "functions.h"
 
-int main(int argc, char *argv[])
+//int main(int argc, char *argv[])
+int main(void)
 {
     /*
      int argc = 14;
@@ -43,12 +44,12 @@ int main(int argc, char *argv[])
      */
     
     
-    /*
+    ///*
     int argc = 15;
     char *argv[15];
     argv[1] = "EXTRACT_VELOCITY_SLICES";
-    argv[2] = "1.01";
-    argv[3] = "v1.01";
+    argv[2] = "1.64";
+    argv[3] = "v1.64";
     argv[4] = "-43.6";
     argv[5] = "172.3";
     argv[6] = "-10";
@@ -57,10 +58,10 @@ int main(int argc, char *argv[])
     argv[9] = "46";
     argv[10] = "0";
     argv[11] = "0.1";
-    argv[12] = "1";
-    argv[13] = "0.6";
+    argv[12] = "0.1";
+    argv[13] = "0.5";
     argv[14] = "SliceParameters";
-    */
+    //*/ //./CVM EXTRACT_VELOCITY_SLICES 1.64 v1.64 -43.6 172.3 -10 70 60 46 0 0.1 0.1 0.5 SliceParameters
     
     /*
     int argc = 5;
@@ -76,13 +77,13 @@ int main(int argc, char *argv[])
     int argc = 9;
     char *argv[9];
     argv[1] = "GENERATE_INDIVIDUAL_PROFILE";
-    argv[2] = "1.62";
-    argv[3] = "ProfileV1.62";
-    argv[4] = "-44.3968";
-    argv[5] = "171.5";
-    argv[6] = "2";
-    argv[7] = "-1";
-    argv[8] = "0.05";
+    argv[2] = "0.63";
+    argv[3] = "ProfileV0.63";
+    argv[4] = "-44.00";
+    argv[5] = "171.7";
+    argv[6] = "1.6";
+    argv[7] = "-.1";
+    argv[8] = "0.003";
     */
 
     char *generateType = argv[1];

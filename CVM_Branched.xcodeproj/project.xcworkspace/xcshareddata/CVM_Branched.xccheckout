@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9B6E52A9-A120-4E49-86F0-3206ED4B5DE5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CVM_Branched</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>47855A134047C4F3D1EE8E0BD0722EAC9332BA2E</key>
+		<string>https://github.com/thomsonem/CVM_Branched.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CVM_Branched.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>47855A134047C4F3D1EE8E0BD0722EAC9332BA2E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/thomsonem/CVM_Branched.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>47855A134047C4F3D1EE8E0BD0722EAC9332BA2E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>47855A134047C4F3D1EE8E0BD0722EAC9332BA2E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CVM_Branched</string>
+		</dict>
+	</array>
+</dict>
+</plist>

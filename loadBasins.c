@@ -238,7 +238,7 @@ void assignBasinProperties(gridStruct *location, int basinNum, globalBasinData *
     // load 1D velo model
     velo1D *velocityModel1DBasinData = NULL;
     char *fileName;
-    fileName = "Data/1D_Velocity_Model/Cant1D_v1.fd_modfile";
+    fileName = "Data/1D_Velocity_Model/Cant1D_v2.fd_modfile";
     velocityModel1DBasinData = loadv1DsubMod(fileName);
     
     // calculate the properties for all points inside the basin

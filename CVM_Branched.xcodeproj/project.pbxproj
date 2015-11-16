@@ -104,6 +104,8 @@
 		8C969A9E1BD889F900BC87F0 /* writeGridPoints.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = writeGridPoints.c; sourceTree = SOURCE_ROOT; };
 		8C969A9F1BD889F900BC87F0 /* writeLatLonData.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = writeLatLonData.c; sourceTree = SOURCE_ROOT; };
 		8C969AA01BD889F900BC87F0 /* writeLogFiles.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = writeLogFiles.c; sourceTree = SOURCE_ROOT; };
+		8C969AC91BD88E3B00BC87F0 /* Build */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Build; sourceTree = SOURCE_ROOT; };
+		8C969ACA1BD8902E00BC87F0 /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,10 +122,14 @@
 		8C969A631BD8896700BC87F0 = {
 			isa = PBXGroup;
 			children = (
+				8C969ACA1BD8902E00BC87F0 /* Data */,
 				8C969AC81BD88A8A00BC87F0 /* Primary Functions */,
 				8C969AC71BD88A8100BC87F0 /* Headers */,
 				8C969A6E1BD8896800BC87F0 /* CVM_Branched */,
 				8C969A6D1BD8896800BC87F0 /* Products */,
+				8C969A921BD889F900BC87F0 /* Make */,
+				8C969AC91BD88E3B00BC87F0 /* Build */,
+				8C969A8A1BD889F900BC87F0 /* Holder */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,14 +162,12 @@
 				8C969A861BD889F800BC87F0 /* generateProfile.c */,
 				8C969A871BD889F800BC87F0 /* generateSurfaceVectors.c */,
 				8C969A881BD889F800BC87F0 /* getSurfaceValues.c */,
-				8C969A8A1BD889F900BC87F0 /* Holder */,
 				8C969A8B1BD889F900BC87F0 /* linearInterpolation.c */,
 				8C969A8C1BD889F900BC87F0 /* load1dVeloSubModel.c */,
 				8C969A8D1BD889F900BC87F0 /* loadBasins.c */,
 				8C969A8E1BD889F900BC87F0 /* loadBoundary.c */,
 				8C969A8F1BD889F900BC87F0 /* loadCanterburyBasin.c */,
 				8C969A901BD889F900BC87F0 /* loadSurface.c */,
-				8C969A921BD889F900BC87F0 /* Make */,
 				8C969A931BD889F900BC87F0 /* mathFunctions.c */,
 				8C969A941BD889F900BC87F0 /* NaNsubMod.c */,
 				8C969A951BD889F900BC87F0 /* negInfSurf.c */,
@@ -337,6 +341,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_CFLAGS[arch=*]" = "-I'/Volumes/ETHAN\\'S\\ HDD/Velocity-Model\\ \\(HDD\\)/CVM_Branched/Data/'";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -379,6 +384,9 @@
 		8C969A741BD8896800BC87F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				New_Setting = "";
+				OTHER_CFLAGS = "-I/Volumes/ETHAN\\'S\\ HDD/Velocity-Model\\ \\(HDD\\)/CVM_Branched ";
+				"OTHER_CFLAGS[arch=*]" = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -386,6 +394,7 @@
 		8C969A751BD8896800BC87F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				New_Setting = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

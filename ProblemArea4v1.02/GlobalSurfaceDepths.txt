@@ -1,3 +1,0 @@
-Global Surface Depths at Lat: -44.000000 Lon: 171.700000
-posInfSurf 	 100000.000000
-negInfSurf 	 -1000000.000000

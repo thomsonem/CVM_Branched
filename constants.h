@@ -34,6 +34,23 @@
 #define As_gravel 0.312 // m/s
 #define As_silt 0.192 // m/s
 
+#define k_pliocene_top 0.669
+#define k_pliocene_bot 0.559
+#define k_miocene_top 0.624
+#define k_miocene_bot 0.485
+#define k_paleogene_top 0.447
+#define k_paleogene_bot 0.404
+
+#define age_1_pliocene 1.8
+#define age_2_pliocene 5.3
+
+#define age_1_miocene 5.3
+#define age_2_miocene 24
+
+#define age_1_paleogene 24
+#define age_2_paleogene 65
+
+
 
 
 

@@ -232,6 +232,17 @@ valStructLocal *plioceneSubModel(gridStruct *location, globalBasinData *basinDat
 {
 	valStructLocal *values = NULL;
     values = malloc(sizeof(valStructLocal));
+
+//    double depth, age, k_interp;
+//
+//    depth = -basinData->surfVals[basinNum][xInd][yInd][2];
+//    
+//    age = linearInterpolation(basinData->surfVals[basinNum][xInd][yInd][1], basinData->surfVals[basinNum][xInd][yInd][2], age_1_pliocene, age_2_pliocene, location->Z[zInd]);
+//    k_interp = linearInterpolation(basinData->surfVals[basinNum][xInd][yInd][1], basinData->surfVals[basinNum][xInd][yInd][2], k_pliocene_top, k_pliocene_bot, location->Z[zInd]);
+////    printf("%lf %lf %lf\n",depth, age, k_interp);
+//    values->Vp = k_interp*pow(depth*age,0.16666);
+//    values->Rho = rhoFromVpBrocher(values->Vp);
+//    values->Vs = vsFromVpBrocher(values->Vp);
     
     values->Rho = 1.905;
     values->Vp = 2;
@@ -245,6 +256,15 @@ valStructLocal *mioceneSubModel(gridStruct *location, globalBasinData *basinData
 {
 	valStructLocal *values = NULL;
     values = malloc(sizeof(valStructLocal));
+//    double depth, age, k_interp;
+//    
+//    depth = -basinData->surfVals[basinNum][xInd][yInd][3];
+//    
+//    age = linearInterpolation(basinData->surfVals[basinNum][xInd][yInd][2], basinData->surfVals[basinNum][xInd][yInd][3], age_1_miocene, age_2_miocene, location->Z[zInd]);
+//    k_interp = linearInterpolation(basinData->surfVals[basinNum][xInd][yInd][1], basinData->surfVals[basinNum][xInd][yInd][2], k_miocene_top, k_miocene_bot, location->Z[zInd]);
+//    values->Vp = k_interp*pow(depth*age,0.16666);
+//    values->Rho = rhoFromVpBrocher(values->Vp);
+//    values->Vs = vsFromVpBrocher(values->Vp);
     
     values->Rho = 2.0931;
     values->Vp = 2.5;
@@ -258,6 +278,16 @@ valStructLocal *paleogeneSubModel(gridStruct *location, globalBasinData *basinDa
 {
 	valStructLocal *values = NULL;
     values = malloc(sizeof(valStructLocal));
+    
+//    double depth, age, k_interp;
+//    
+//    depth = -basinData->surfVals[basinNum][xInd][yInd][4];
+//    
+//    age = linearInterpolation(basinData->surfVals[basinNum][xInd][yInd][3], basinData->surfVals[basinNum][xInd][yInd][4], age_1_paleogene, age_2_paleogene, location->Z[zInd]);
+//    k_interp = linearInterpolation(basinData->surfVals[basinNum][xInd][yInd][1], basinData->surfVals[basinNum][xInd][yInd][2], k_paleogene_top, k_paleogene_bot, location->Z[zInd]);
+//    values->Vp = k_interp*pow(depth*age,0.16666);
+//    values->Rho = rhoFromVpBrocher(values->Vp);
+//    values->Vs = vsFromVpBrocher(values->Vp);
     
     values->Rho = 2.151;
     values->Vp = 2.7;

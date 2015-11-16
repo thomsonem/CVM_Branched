@@ -336,7 +336,7 @@ globalDataValues* loadCvmDataAll(gridStruct *location, char *outputDirectory)
                     globDataVals->Vp[ix][iy][iz] = float_swap(vpRead);
                     globDataVals->Vs[ix][iy][iz] = float_swap(vsRead);
                     globDataVals->Rho[ix][iy][iz] = float_swap(rhoRead);
-                    printf("swappingRead\n");
+//                    printf("swappingRead\n");
                 }
                 else if (endianInt == 0) // system is little endain, read as is.
                 {

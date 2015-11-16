@@ -133,6 +133,10 @@ extern double deg2rad(double angDeg);
 extern singleGridPoint rotateGrid(double rotAngle, double X, double Y);
 extern float float_swap(const float inFloat);
 extern int endian(void);
+extern double rhoFromVpBrocher(double vp);
+extern double vsFromVpBrocher(double vp);
+
+
 
 
 
