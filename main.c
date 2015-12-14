@@ -25,26 +25,26 @@
 //int main(int argc, char *argv[])
 int main(void)
 {
-    /*
+    ///*
      int argc = 14;
      char *argv[20];
-     argv[1] = "GENERATE_VELOCITY_MOD";
-     argv[2] = "1.01";
-     argv[3] = "v1.01";
-     argv[4] = "-43.6";
-     argv[5] = "170.75";
-     argv[6] = "-50.00";
-     argv[7] = "1";
-     argv[8] = "1";
-     argv[9] = "1";
-     argv[10] = "0";
-     argv[11] = "0.5";
-     argv[12] = "1";
-     argv[13] = "0.5";
-     */
+    argv[1] = "GENERATE_VELOCITY_MOD";
+    argv[2] = "0.2";
+    argv[3] = "Original";
+    argv[4] = "-43.6";
+    argv[5] = "173.2";
+    argv[6] = "-10";
+    argv[7] = "70";
+    argv[8] = "60";
+    argv[9] = "46";
+    argv[10] = "0";
+    argv[11] = "0.1";
+    argv[12] = "1";
+    argv[13] = "0.5";
+     //*/
     
     
-    ///*
+    /*
     int argc = 15;
     char *argv[15];
     argv[1] = "EXTRACT_VELOCITY_SLICES";
@@ -61,7 +61,7 @@ int main(void)
     argv[12] = "0.1";
     argv[13] = "0.5";
     argv[14] = "SliceParameters";
-    //*/ //./CVM EXTRACT_VELOCITY_SLICES 1.64 v1.64 -43.6 172.3 -10 70 60 46 0 0.1 0.1 0.5 SliceParameters
+    */ //./CVM EXTRACT_VELOCITY_SLICES 1.64 v1.64 -43.6 172.3 -10 70 60 46 0 0.1 0.1 0.5 SliceParameters
     
     /*
     int argc = 5;
