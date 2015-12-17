@@ -1,3 +1,0 @@
-Sub routine name	GENERATE_VELOCITY_MOD
-MODEL_VERSION	0.2
-nPointsExceedingMinVelo	0

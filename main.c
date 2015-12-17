@@ -29,7 +29,7 @@ int main(void)
      int argc = 14;
      char *argv[20];
     argv[1] = "GENERATE_VELOCITY_MOD";
-    argv[2] = "0.2";
+    argv[2] = "0.03";
     argv[3] = "Original";
     argv[4] = "-43.6";
     argv[5] = "173.2";
@@ -38,7 +38,7 @@ int main(void)
     argv[8] = "60";
     argv[9] = "46";
     argv[10] = "0";
-    argv[11] = "0.1";
+    argv[11] = "1";
     argv[12] = "1";
     argv[13] = "0.5";
      //*/

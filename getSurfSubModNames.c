@@ -29,7 +29,7 @@ surfNames getSurfSubModNames(modVersion modelVersion)
     surfNames surfSubModNames;
     
     // Model Version 0.1, 1D velocity sub Model
-    if(modelVersion.version == 0.1)
+    if(modelVersion.version == 0.01)
     {
         // define the number of surfaces and sub models
         surfSubModNames.nSurf = 2;
@@ -46,7 +46,7 @@ surfNames getSurfSubModNames(modVersion modelVersion)
         
     }
     // Model Version 0.2, EP Tomography
-    if(modelVersion.version == 0.2)
+    else if(modelVersion.version == 0.02)
     {
         // define the number of surfaces and sub models
         surfSubModNames.nSurf = 2;
@@ -59,6 +59,25 @@ surfNames getSurfSubModNames(modVersion modelVersion)
         // insert velocity submodel names
         surfSubModNames.veloSubMod[0] = "EPtomo2010subMod";
         
+        surfSubModNames.nBasin = 0;
+        
+    }
+        else if(modelVersion.version == 0.03)
+    {
+        // define the number of surfaces and sub models
+        surfSubModNames.nSurf = 3;
+        surfSubModNames.nVeloSubMod = 2;
+        
+        // insert surface surface keywords
+        surfSubModNames.surf[0] = "posInfSurf";
+        surfSubModNames.surf[1] = "basementRockSurf";
+        surfSubModNames.surf[2] = "negInfSurf";
+        
+        // insert velocity submodel names
+        surfSubModNames.veloSubMod[0] = "v1DsubMod";
+        surfSubModNames.veloSubMod[1] = "EPtomo2010subMod";
+        
+        // insert basin name / number
         surfSubModNames.nBasin = 0;
         
     }
